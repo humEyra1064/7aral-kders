@@ -5,9 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>REGISTER PAGE</h1>
+    <form action="">
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder=" Enter your firstname" required>
+        </div>
+
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder=" Enter your lastname" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your Email" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="your password" required>
+        </div>
+
+        <div>
+            <label for="dob">Day of Birth</label>
+            <input type="date" name="dob" id="dob" value="01-01-2022" placeholder="Enter your birthday" required>
+        </div>
+
+      
+
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+        </div> 
+        
+        <div>
+            <label for="adress">Adress</label>
+            <textarea name="adress" id="adress" cols="20" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="">Select Country</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Germany">Germany</option>
+              <option value="USA">USA</option>
+              <option value="UK">UK</option>
+            </select>
+          </div>
+<br>
+        <div class="gender-div">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="">Male</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="">Female</label>
+
+            
+        </div>
+
+        <div class="lang-div">
+            <label for="languages">Languages</label>
+
+            <input type="checkbox" name="lang" id="türkçe" checked />
+            <label for="türkçe">Türkçe</label>
+    
+            <input type="checkbox" name="lang" id="english" />
+            <label for="english">English</label>
+    
+            <input type="checkbox" name="lang" id="français" />
+            <label for="français">Français</label>
+
+
+
+        </div>
+
+        <div>
+           
+           <input type="submit" value="save">
+           <input type="reset" value="clear">
+           
+        </div>
+
+
+
+
+
+
+
+
+
+    </form>
+    
     
 </body>
 </html>
