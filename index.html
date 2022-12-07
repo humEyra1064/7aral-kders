@@ -17,44 +17,44 @@
     <form action="">
         <div>
             <label for="firstname">First Name:</label>
-            <input type="text" name="firstname" id="firstname" placeholder=" Enter your firstname" required>
+            <input class="inputs" type="text" name="firstname" id="firstname" placeholder=" Enter your firstname" required>
         </div>
 
         <div>
             <label for="lastname">Last Name:</label>
-            <input type="text" name="lastname" id="lastname" placeholder=" Enter your lastname" required>
+            <input class="inputs" type="text" name="lastname" id="lastname" placeholder=" Enter your lastname" required>
         </div>
 
         <div>
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" placeholder="Enter your Email" required>
+            <input class="inputs" type="text" name="email" id="email" placeholder="Enter your Email" required>
         </div>
 
         <div>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" placeholder="your password" required>
+            <input class="inputs"type="password" name="password" id="password" placeholder="your password" required>
         </div>
 
         <div>
             <label for="dob">Day of Birth</label>
-            <input type="date" name="dob" id="dob" value="01-01-2022" placeholder="Enter your birthday" required>
+            <input class="inputs" type="date" name="dob" id="dob" value="01-01-2022" placeholder="Enter your birthday" required>
         </div>
 
       
 
         <div>
             <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <input class="inputs"type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
         </div> 
         
-        <div>
+        <div class="textarea-div">
             <label for="adress">Adress</label>
-            <textarea name="adress" id="adress" cols="20" rows="5"></textarea>
+            <textarea class="inputs"name="adress" id="adress" cols="20" rows="5"></textarea>
         </div>
 
         <div>
             <label for="country">Country</label>
-            <select name="country" id="country">
+            <select class="inputs"name="country" id="country">
               <option value="">Select Country</option>
               <option value="Turkey">Turkey</option>
               <option value="Germany">Germany</option>
@@ -62,34 +62,40 @@
               <option value="UK">UK</option>
             </select>
           </div>
-<br>
-        <div class="gender-div">
+
+          <div>
             <label for="gender">Gender</label>
-            <input type="radio" name="gender" id="gender">
-            <label for="">Male</label>
-            <input type="radio" name="gender" id="gender">
+
+        <div class="gender-div">
+            
+            <input class="radio-check"type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input class="radio-check" type="radio" name="gender" id="female">
             <label for="">Female</label>
 
             
         </div>
+    </div>
 
-        <div class="lang-div">
+        <div>
             <label for="languages">Languages</label>
+            <div class="lang-div">
 
-            <input type="checkbox" name="lang" id="türkçe" checked />
+            <input class="radio-check"type="checkbox" name="lang" id="türkçe" checked />
             <label for="türkçe">Türkçe</label>
     
-            <input type="checkbox" name="lang" id="english" />
+            <input class="radio-check" type="checkbox" name="lang" id="english" />
             <label for="english">English</label>
     
-            <input type="checkbox" name="lang" id="français" />
+            <input class="radio-check" type="checkbox" name="lang" id="français" />
             <label for="français">Français</label>
 
 
 
         </div>
+        </div>
 
-        <div>
+        <div class="btn-container">
            
            <input type="submit" value="save">
            <input type="reset" value="clear">

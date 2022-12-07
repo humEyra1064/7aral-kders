@@ -2,6 +2,9 @@
 padding: 0;
 box-sizing: border-box;}
 
+h1{padding: 10px;
+text-align: center;}
+
 
 body{font-family: 'Roboto Mono', monospace;}
 
@@ -15,4 +18,39 @@ label{display: inline-block;
     width:120px ;}
 
 
-    .gander-div label{width:50px ;}
+    .lang-div,
+.gender-div {
+  display: inline-block;
+}
+
+.lang-div label,
+.gender-div label {
+  width: auto;
+}
+
+.inputs{border-radius:5px ;
+width:300px ;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid rgba(0,0,0,0.3);
+}
+.radio-check{margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.btn-container{text-align: center;}
+
+.btn-container input{width: 100px;
+border-radius: 10px;
+border: none;
+background-color: hotpink;
+padding: 10px;}
+
+
+.btn-container input:hover{background-color:rgb(247, 35, 63) ;
+color: white;
+font-weight: 700;
+cursor: pointer;}
+
+.textarea-div *{vertical-align: middle;}
